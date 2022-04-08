@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #415e9c;
+  width: 100%;
+  height: 100px;
+}
+.title {
+  color: white;
+  font-size: 2.5em;
+  left: 150px;
+  position: relative;
+  top: 25px;
+}
+.email {
+  position: relative;
+  left: 620px;
+  color: white;
+}
+.password {
+  position: relative;
+  left: 713px;
+  color: white;
+}
+.ine {
+  position: relative;
+  left: 780px;
+}
+.inp {
+  position: relative;
+  left: 800px;
+}
+
+.myButton {
+  position: relative;
+  left: 810px;
+  /* box-shadow: 0px 0px 0px 2px #9fb4f2;*/
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  /* background-color: #7892c2; */
+  background-color: #415e9c;
+  border: 1 px solid #7892c2;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 8px 7px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #002d9e;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color: #476e9e;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.fpassword {
+  color: #9cb4d8;
+  position: relative;
+  left: 980px;
+  font-size: 85%;
+  font-family: Courier-new;
+  text-decoration-line: none;
+}
+
+.fpassword:hover {
+  text-decoration: underline;
+}
+
+.signup {
+  background-image: linear-gradient(#fdfdfe, #d6daea);
+  width: 100%;
+  height: 700px;
+}
+.connect {
+  font-size: 1.55em;
+  position: relative;
+  top: 50px;
+  left: 150px;
+  color: #0e385f;
+  font-weight: bold;
+}
+.img {
+  position: absolute;
+  right: 700px;
+  top: 250px;
+}
+.create {
+  position: relative;
+  left: 565px;
+  top: 15px;
+  font-size: 3em;
+}
+.quick {
+  position: relative;
+  left: 780px;
+  top: 40px;
+  font-size: 1.5em;
+}
+.fname,
+.sname {
+  position: relative;
+  padding: 8px;
+  left: 585px;
+  top: 80px;
+  border-color: 1px grey;
+}
+.mobile {
+  position: relative;
+  padding: 8px;
+  top: 140px;
+  left: 200px;
+  width: 380px;
+}
+.npsw {
+  position: relative;
+  padding: 8px;
+  top: 190px;
+  right: 182px;
+  width: 380px;
+}
+.dob {
+  position: relative;
+  top: 200px;
+  left: 770px;
+  width: 380px;
+  font-size: 20px;
+}
+.pickdate {
+  position: relative;
+  top: 200px;
+  left: 770px;
+}
+
+.gender {
+  position: relative;
+  top: 200px;
+  left: 770px;
+}
+.types {
+  position: relative;
+  top: 190px;
+  left: 765px;
+}
+.terms {
+  position: relative;
+  top: 180px;
+  left: 765px;
+}
+
+.signUpButton {
+  box-shadow: inset 0px 1px 0px 0px #9acc85;
+  background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+  background-color: #74ad5a;
+  border-radius: 5px;
+  border: 1px solid #3b6e22;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 56px;
+  text-decoration: none;
+  position: relative;
+  top: 180px;
+  left: 765px;
+  width: 100px;
+  text-align: center;
+}
+.signUpButton:hover {
+  background: linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+  background-color: #68a54b;
+}
+.signUpButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.endtext {
+  position: relative;
+  top: 180px;
+  left: 765px;
+  color: grey;
+}
